@@ -12,10 +12,11 @@ on:
     branches:
       - main
 
-  # TODO: remove before merge
-  pull_request:
-    branches:
-      - main
+  issues:
+    types: [edited]
+
+  issue_comment:
+    types: [created]
 
   # Allow manual triggering from the GitHub Actions UI
   workflow_dispatch:
