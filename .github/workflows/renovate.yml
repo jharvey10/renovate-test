@@ -1,22 +1,22 @@
 name: Renovate Dependencies
 
 on:
-  # Schedule the workflow to run every Monday at 08:00 UTC.
-  # See: https://crontab.guru/
-  schedule:
-    - cron: '0 8 * * 1'
+  # # Schedule the workflow to run every Monday at 08:00 UTC.
+  # # See: https://crontab.guru/
+  # schedule:
+  #   - cron: '0 8 * * 1'
 
-  # Run whenever code is pushed to the main branch
-  # TODO: does this update existing PRs without creating new ones?
-  push:
-    branches:
-      - main
+  # # Run whenever code is pushed to the main branch
+  # # TODO: does this update existing PRs without creating new ones?
+  # push:
+  #   branches:
+  #     - main
 
-  issues:
-    types: [edited]
+  # issues:
+  #   types: [edited]
 
-  issue_comment:
-    types: [created]
+  # issue_comment:
+  #   types: [created]
 
   # Allow manual triggering from the GitHub Actions UI
   workflow_dispatch:
