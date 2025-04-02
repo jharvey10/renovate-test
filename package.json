@@ -17,6 +17,8 @@
   "homepage": "https://github.com/jharvey10/renovate-test#readme",
   "description": "",
   "dependencies": {
-    "immer": "^10.1.1"
+    "immer": "^10.0.0",
+    "react": "^18.0.0",
+    "react-substate": "^6.0.0"
   }
 }
