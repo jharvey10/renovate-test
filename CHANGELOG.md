@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0-rc](https://github.com/jharvey10/renovate-test/compare/v1.4.0...v1.5.0-rc) (2025-04-04)
+
+
+### Features
+
+* try versioning prerelease ([6eec76f](https://github.com/jharvey10/renovate-test/commit/6eec76fa009eac8d59238dccf3d4219706a9a08c))
+
 ## [1.4.0](https://github.com/jharvey10/renovate-test/compare/v1.3.0...v1.4.0) (2025-04-04)
 
 
