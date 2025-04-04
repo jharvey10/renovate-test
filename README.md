@@ -10,3 +10,5 @@ it didn't work but i did it as a patch release so maybe that's it. trying a mino
 going to release a normal minor release
 
 some new content is now here
+
+business as usual, this is a new feature
