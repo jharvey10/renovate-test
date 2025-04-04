@@ -37,10 +37,10 @@ jobs:
 
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        uses: actions/checkout@4.2.2
 
       - name: Run Renovate 🔍
-        uses: renovatebot/github-action@cf5954a2aac7999882d3de4e462499adde159d04 # v41.0.17
+        uses: renovatebot/github-action@v41.0.17
         with:
           configurationFile: .github/renovate.json5
           # renovate: datasource=docker depName=ghcr.io/renovatebot/renovate
