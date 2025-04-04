@@ -6,7 +6,7 @@
 
   "packages": {
     ".": {
-      "prerelease-type": "rc"
+      "prerelease-type": ""
     }
   }
 }
