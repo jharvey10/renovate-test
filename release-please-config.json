@@ -5,8 +5,7 @@
 
   "packages": {
     ".": {
-      "versioning": "prerelease",
-      "prerelease-type": "rc"
+      "versioning": "prerelease"
     }
   }
 }
