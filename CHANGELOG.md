@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/jharvey10/renovate-test/compare/v1.3.0...v1.4.0) (2025-04-04)
+
+
+### Features
+
+* wow new feature ([075d994](https://github.com/jharvey10/renovate-test/commit/075d9942defd49388e53d68dfad2621df21de783))
+
 ## 1.3.0 (2025-04-04)
 
 
