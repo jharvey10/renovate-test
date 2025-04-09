@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1-rc.1](https://github.com/jharvey10/renovate-test/compare/v1.5.0-rc.1...v1.5.1-rc.1) (2025-04-09)
+
+
+### Bug Fixes
+
+* update docs with thing ([7645674](https://github.com/jharvey10/renovate-test/commit/764567474d5e35067ef3530b3ad27838ff75786c))
+
 ## [1.5.0-rc.1](https://github.com/jharvey10/renovate-test/compare/v1.5.0-rc...v1.5.0-rc.1) (2025-04-04)
 
 
