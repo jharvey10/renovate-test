@@ -7,15 +7,15 @@ on:
   #   - cron: '0 8 * * 1'
 
   # Run whenever code is pushed to the main branch
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
 
-  issues:
-    types: [edited]
+  # issues:
+  #   types: [edited]
 
-  issue_comment:
-    types: [created]
+  # issue_comment:
+  #   types: [created]
 
   # Allow manual triggering from the GitHub Actions UI
   workflow_dispatch:
