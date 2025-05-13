@@ -90,7 +90,11 @@
     },
     {
       "matchManagers": ["npm"],
-      "groupName": "npm dependencies"
+      "groupName": "npm dependencies",
+      "major": {
+        "dependencyDashboardApproval": true,
+        "groupName": "{{manager}} dependency {{depName}} (major)"
+      }
     },
     {
       // Supersede previous rules to require PR creation approval for major versions
