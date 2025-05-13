@@ -32,18 +32,18 @@
   "packageRules": [
     {
       "matchManagers": ["docker-compose"],
-      // "groupName": "docker-compose dependencies (minor)",
+      // "groupName": "docker-compose dependencies",
       "enabled": false // TODO: remove to enable when ready
     },
     {
       "matchManagers": ["dockerfile"],
-      // "groupName": "dockerfile dependencies (minor)",
+      // "groupName": "dockerfile dependencies",
       // "pinDigests": true,
       "enabled": false // TODO: remove to enable when ready
     },
     {
       "matchManagers": ["github-actions"],
-      "groupName": "github-actions dependencies (minor)",
+      "groupName": "github-actions dependencies",
       "pinDigests": true
     },
     {
@@ -60,7 +60,7 @@
         "bump",
         "replacement"
       ],
-      "groupName": "go dependencies (minor)"
+      "groupName": "go dependencies"
     },
     {
       // Group and hold some otel-specific go dependencies
@@ -75,22 +75,22 @@
     },
     {
       "matchManagers": ["helm-values"],
-      // "groupName": "helm-values dependencies (minor)",
+      // "groupName": "helm-values dependencies",
       "enabled": false // TODO: remove to enable when ready
     },
     {
       "matchManagers": ["helmv3"],
-      // "groupName": "helmv3 dependencies (minor)",
+      // "groupName": "helmv3 dependencies",
       "enabled": false // TODO: remove to enable when ready
     },
     {
       "matchManagers": ["jsonnet-bundler"],
-      // "groupName": "jsonnet-bundler dependencies (minor)",
+      // "groupName": "jsonnet-bundler dependencies",
       "enabled": false // TODO: remove to enable when ready
     },
     {
       "matchManagers": ["npm"],
-      "groupName": "npm dependencies (minor)"
+      "groupName": "npm dependencies"
     },
     {
       // Supersede previous rules to require PR creation approval for major versions
