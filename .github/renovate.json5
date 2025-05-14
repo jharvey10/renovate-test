@@ -45,25 +45,9 @@
       "matchManagers": ["github-actions"],
       "groupName": "github-actions dependencies",
       "pinDigests": true,
-      "major": {
-        "dependencyDashboardApproval": true,
-        "groupName": "{{manager}} dependency {{depName}} (major)"
-      },
     },
     {
       "matchManagers": ["gomod"],
-      "matchUpdateTypes": [
-        "major",
-        "minor",
-        "patch",
-        "pin",
-        "pinDigest",
-        "digest",
-        "lockFileMaintenance",
-        "rollback",
-        "bump",
-        "replacement"
-      ],
       "groupName": "go dependencies"
     },
     {
@@ -95,10 +79,11 @@
     {
       "matchManagers": ["npm"],
       "groupName": "npm dependencies",
-      "major": {
-        "dependencyDashboardApproval": true,
-        "groupName": "{{manager}} dependency {{depName}} (major)"
-      },
     },
-  ]
+  ],
+
+  "major": {
+    "dependencyDashboardApproval": true,
+    "groupName": "{{manager}} dependency {{depName}} (major)"
+  },
 }
