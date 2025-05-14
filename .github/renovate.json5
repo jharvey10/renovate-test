@@ -84,7 +84,7 @@
       // Supersede previous rules to require PR creation approval for major versions
       "matchUpdateTypes": ["major"],
       "dependencyDashboardApproval": true,
-      // "groupName": "{{manager}} dependency {{depName}}"
+      "groupName": "{{manager}} dependency {{depName}}"
     }
   ],
 }
