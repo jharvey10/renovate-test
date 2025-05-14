@@ -80,10 +80,10 @@
       "matchManagers": ["npm"],
       "groupName": "npm dependencies",
     },
+    {
+      "matchUpdateTypes": ["major"],
+      "dependencyDashboardApproval": true,
+      "groupName": "{{manager}} dependency {{depName}} (major)"
+    }
   ],
-
-  "major": {
-    "dependencyDashboardApproval": true,
-    "groupName": "{{manager}} dependency {{depName}} (major)"
-  },
 }
