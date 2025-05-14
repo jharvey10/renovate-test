@@ -81,9 +81,10 @@
       "groupName": "npm dependencies",
     },
     {
+      // Supersede previous rules to require PR creation approval for major versions
       "matchUpdateTypes": ["major"],
       "dependencyDashboardApproval": true,
-      "groupName": "{{manager}} dependency {{depName}} (major)"
+      // "groupName": "{{manager}} dependency {{depName}}"
     }
   ],
 }
