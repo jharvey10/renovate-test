@@ -53,9 +53,8 @@
     {
       "matchManagers": ["gomod"],
       "matchDepTypes": ["indirect"],
-      "vulnerabilityAlerts": {
-        "enabled": true
-      },
+      "groupName": "go dependencies",
+      "enabled": true
     },
     {
       // Group and hold some otel-specific go dependencies
