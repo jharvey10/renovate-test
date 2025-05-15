@@ -44,11 +44,18 @@
     {
       "matchManagers": ["github-actions"],
       "groupName": "github-actions dependencies",
-      "pinDigests": true,
+      "pinDigests": true
     },
     {
       "matchManagers": ["gomod"],
       "groupName": "go dependencies"
+    },
+    {
+      "matchManagers": ["gomod"],
+      "matchDepTypes": ["indirect"],
+      "vulnerabilityAlerts": {
+        "enabled": true
+      },
     },
     {
       // Group and hold some otel-specific go dependencies
