@@ -1,6 +1,6 @@
 module github.com/jharvey10/renovate-test/gostuff
 
-go 1.24.3
+go 1.25
 
 require github.com/burningalchemist/sql_exporter v0.0.0-20240103092044-466b38b6abc4
 
@@ -17,7 +17,7 @@ require (
 	github.com/JohnCGriffin/overflow v0.0.0-20211019200055-46fa312c352c // indirect
 	github.com/andybalholm/brotli v1.1.1 // indirect
 	github.com/apache/arrow/go/v12 v12.0.1 // indirect
-	github.com/apache/thrift v0.21.0 // indirect
+	github.com/apache/thrift v0.23.0 // indirect
 	github.com/aws/aws-sdk-go-v2 v1.36.3 // indirect
 	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.6.2 // indirect
 	github.com/aws/aws-sdk-go-v2/config v1.29.14 // indirect
